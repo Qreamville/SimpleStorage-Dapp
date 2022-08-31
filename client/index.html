@@ -8,9 +8,12 @@
     <title>Simple Storage</title>
   </head>
   <body class="bg-blue-400 h-screen grid place-items-center">
+    <script src="./script.js" type="module"></script>
     <main class="bg-white flex flex-col text-center h-72 w-72">
       <h1 class="text-2xl font-bold my-2">SimpleStorage Dapp</h1>
-      <button class="bg-green-600 text-white w-24 mx-auto">Connect</button>
+      <button class="bg-green-600 text-white w-24 mx-auto" id="connectBtn">
+        Connect
+      </button>
       <label for="store">Store:</label>
       <input
         type="text"
@@ -18,11 +21,16 @@
         id="store"
         class="border-blue-500 border w-48 mx-auto"
       />
-      <button class="bg-blue-500 border w-48 mx-auto my-3 py-2 text-white">
+      <button
+        class="bg-blue-500 border w-48 mx-auto mt-2 py-2 text-white"
+        id="storeBtn"
+      >
+        Store
+      </button>
+      <button class="bg-purple-500 border w-48 mx-auto my-2 py-2 text-white">
         Retrieve
       </button>
       <p id="retrive" class="border border-black w-48 h-8 mx-auto"></p>
     </main>
-    <script src="./script.js" type="module"></script>
   </body>
 </html>
