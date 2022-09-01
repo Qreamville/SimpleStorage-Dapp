@@ -31,3 +31,23 @@ A simple storage decentralise application. Used to store favorite number.
 ├── .gitignore
 └── README.md
 ```
+
+
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+   or 
+   
+     ```sh
+   yarn install
+   ```
+3. Run the app using live server extension or similar
+ 
