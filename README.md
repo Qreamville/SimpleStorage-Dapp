@@ -38,7 +38,7 @@ A simple storage decentralise application. Used to store favorite number.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/
+   git clone https://github.com/Qreamville/SimpleStorage-Dapp.git
    ```
 2. Install NPM packages
    ```sh
