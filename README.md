@@ -1,4 +1,4 @@
-# Simple storage Dapp
+# Simple Storage Dapp
 A simple storage decentralise application. Used to store favorite number. 
 
 
