@@ -1,6 +1,8 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomiclabs/hardhat-etherscan";
+import "solidity-coverage";
+import "@typechain/hardhat";
 require("dotenv").config();
 
 const config: HardhatUserConfig = {
